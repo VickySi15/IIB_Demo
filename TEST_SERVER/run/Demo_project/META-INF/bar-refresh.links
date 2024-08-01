@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="false" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1721911580439" workspaceResource="/Demo_project/application.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Demo_project\application.descriptor.&#xA;Successfully added file Demo_project\application.descriptor to BAR file.&#xA;Elapsed time: 0.001 second(s).&#xA;&#xA;Successfully added file Demo_project\application.descriptor to BAR file.&#xA;" severity="0"/>
+      <barEntry name="application.descriptor"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1721913177635" workspaceResource="/Demo_project/project.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Demo_project\project.msgflow.&#xA;Successfully added file Demo_project\project.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="project.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1721913066902" workspaceResource="/Demo_project/project_Compute.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Demo_project\project_Compute.esql.&#xA;Successfully added file Demo_project\project_Compute.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="project_Compute.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1721913090138" workspaceResource="/Demo_project/project_inputMessage.xml">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file Demo_project\project_inputMessage.xml.&#xA;Successfully added file Demo_project\project_inputMessage.xml to BAR file.&#xA;" severity="0"/>
+      <barEntry name="project_inputMessage.xml"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>
