@@ -1,0 +1,63 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build output
+dist/
+build/
+
+# Ignore environment configuration files
+.env
+*.env
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore macOS Finder metadata files
+*.DS_Store
+
+# Ignore Windows-specific files
+*.cab
+*.lnk
+
+# Ignore temporary files
+*.tmp
+*.bak
+
+# Ignore coverage reports
+coverage/
+
+# Ignore deployment artifacts
+*.tar.gz
+*.zip
+
+# Ignore files created by temporary editors or IDEs
+*.sublime-project
+*.sublime-workspace
+*.iml
+
+# Ignore local configuration files
+*.local
+
+# Ignore sensitive data (example, adjust as needed)
+secret_config.yml
+
+# Ignore compiled binaries
+*.exe
+*.out
+*.class
+*.dll
+*.so
