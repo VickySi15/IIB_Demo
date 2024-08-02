@@ -12,7 +12,7 @@ pipeline {
         steps {
         bat label: '', script: '''
 echo off
-set projectName=IIB_Demo
+set projectName=project_demo
 "C:\\Program Files\\IBM\\ACE\\12.0.12.4\\tools\\mqsicreatebar.exe" -data . -b %projectName%.bar -a %projectName% -cleanBuild
 '''
 }
@@ -25,10 +25,10 @@ set workspace=%cd%
 cd C:\\Program Files\\IBM\\ACE\\12.0.12.4\\server\\bin\\
 call .\\mqsiprofile.cmd
 cd %workspace%
-mqsideploy iib -e IS01 -a IIB_Demo.bar
+mqsideploy iib -e IS01 -a project_demo.bar
 '''
 
-archiveArtifacts 'IIB_Demo.bar'
+archiveArtifacts 'project_demo.bar'
 }
  }
    }
